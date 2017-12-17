@@ -50,12 +50,6 @@ w taki sposób, że wartość telefonu zostanie obniżona o podaną kwotę
 podaną jako parametr. Aby sprawdzić poprawność działania kodu, wypisz 
 dane telefonu, zastosuj obniżkę i ponownie wypisz dane telefonu. 
 Powinny pokazać się 2 różne wartości.
-Generalnie rzecz ujmując, po wywołaniu odpowiednio poleceń printInfo, 
-applyDiscount i ponownie printInfo, cena telefonu powinna ulec zmianie:
-var phone = new Phone(…, 1000, …); // ustawiamy cenę na 1000
-phone.printInfo(); // price = 1000
-phone.applyDiscount(100); // nic się nie wypisuje
-phone.printInfo(); // price = 900
 */
 one.printInfo();
 
