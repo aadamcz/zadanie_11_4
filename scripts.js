@@ -39,9 +39,9 @@ var iPhone6S = new Phone("Apple", 2250, "silver", 350, "iOS");
 var galaxy5S = new Phone("Samsung", 1200, "silver", 400, "Android");
  
 
-galaxy5S.Case();
-one.Case();
-iPhone6S.Case();
+galaxy5S.case();
+one.case();
+iPhone6S.case();
 
 //Apply discount
 /*Dopisz do telefonu funkcję applyDiscount z parametrem, która 
